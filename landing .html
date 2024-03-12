@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="image/x-icon" href="Camera-Logo-Graphics-1-10.jpg">
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+</head>
+<nav>
+<body>
+    <nav>
+    <ul>
+        <li class="dropdown">
+            <a  class="active dropbtn">Home</a>
+            <div class="dropdown-content">
+                </div>
+              </li>
+        <li class="dropdown">
+            <a  class="dropbtn">Brand</a>
+            <div class="dropdown-content">
+                <a href="#">Canon</a>
+                <a href="#">Nikon</a>
+                <a href="#">Sony</a>
+                <a href="#">Zinet</a>
+                </div>
+                </li>
+        <li class="dropdown">
+          <a href="" class="dropbtn">Support</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropbtn"></a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+          <li class="dropdown">
+          <a class="sign" style="color: black;border-radius: 25px;font-family: Arial, Helvetica, sans-serif; ;" href="">Sign in/Log in</a>
+          </li>
+      </ul>
+      </nav>
+
+
+        <div class="icon">
+      <i href="" class="fa-solid fa-bag-shopping"></i>
+      <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="logo">
+       <img class="logo" src="لوگو.jpg" alt="">
+      </div>
+      <div class="search-nav">
+      <input  type="text" placeholder="Search...">
+       </div>
+       <div class="search-mag">
+        <i class="fa-solid fa-magnifying-glass"></i>
+       </div>
+      
+      <div class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="Untitled-2-1.jpg" style="width:100%">
+        <img class="mySlides" src="sigma-150-600mm-sports-feat.jpg" style="width:100%">
+        <img class="mySlides" src="EOS-30th-no-text-960x480-800x400.jpg" style="width:100%">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+      <script>
+      var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+            </section>
+          
+          <div class="news">
+          <h2 >News</h2>
+          </div>
+
+          <div class="cameranews">
+            <div class="opacity">
+            <img  src="eosr52header2023-1200x405.jpg" alt="" width="400" height="auto">
+            <div class="cameranews-content">
+            <img src="eosr52header2023-1200x405.jpg" alt="" width="600" height="auto">
+            <div class="desc">Canon EOS R5 Mark II sensor resolution likely to stick at 45mp but with new AI features [CR2]</div>
+            </div>
+            </div>
+            </div>
+            <div class="cameranews">
+              <div class="opacity">
+              <img src="cinemaeosheader-1200x405.jpg" alt="" width="400" height="auto">
+              <div class="cameranews-content">
+              <img src="cinemaeosheader-1200x405.jpg" alt="" width="600" height="auto">
+              <div class="desc">We may see some new Cinema EOS cameras for NAB 2024 in April</div>
+              </div>
+              </div>
+              </div>
+              <div class="cameranews">
+                <div class="opacity">
+                <img src="rf2410528zheader-1200x405.jpg" alt="" width="400" height="auto">
+                <div class="cameranews-content">
+                <img src="rf2410528zheader-1200x405.jpg" alt="" width="600" height="auto">
+                <div class="desc">There are at least 3 more PowerZoom lenses coming [CR3]></div>
+                </div>
+                </div>
+                </div>
+
+
+
+                <main>
+                  <div class="camera-purch">
+                    <h2>Cameras:</h2>
+                    </div>
+                  <section class="product-sec-new">
+                    <div class="row">
+                      <div class= "new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                        <img class="imag-sec" src="Nikon-Z50-front-16-50-lens.jpg" alt="">
+                       <span class="hot-offer">special offer</span>
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Nikon-Z50-front-16-50-lens
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: #666;font-weight: bold;text-decoration: line-through" class="right">
+                        <span class="price">800$</span>
+                        </div>
+                        <div style=" color:greenyellow;font-weight: bold;">
+                          <span>700$</span>
+                        </div>
+
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;" >
+                        <img class="imag-sec" src="main-qimg-f67099f266d5d9776ae33da1a6632f56.jpg" alt="">
+                       <span class="hot-offer">special offer</span>
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Canon EOS 200D II 24.1 MP
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: #666;font-weight: bold;text-decoration: line-through" class="right">
+                        <span class="price">650$</span>
+                        </div>
+                        <div style=" color:greenyellow;font-weight: bold;">
+                          <span>570$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a  href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                        <img class="imag-sec" src="top-10-all-the-reasons-you-need-to-buy-the-canon-e.jpg" alt="">
+                       <span class="hot-offer">special offer</span>
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Canon EOS R10 24.2MP
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: #666;font-weight: bold;text-decoration: line-through" class="right">
+                        <span class="price">980$</span>
+                        </div>
+                        <div style=" color:greenyellow;font-weight: bold;">
+                          <span>746$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a  href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                       <img class="imag-sec" src="yHVanwTwUDHoRzPnRJ73sm-480-80.jpg" alt="">
+                      </div>
+                       
+                      <div style=" color:white; margin: 15px;" class="title">
+                        Nikon D7500 20.9MP DSLR Camera 
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color:greenyellow;font-weight: bold;" class="right">
+                        <span class="price">730$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a  href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  </div>
+
+
+
+                   
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                        <img class="imag-sec" src="v1pvmzjd5ra02i1m4mre.jpg" alt="">
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Canon EOS R50 24.2MP
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: greenyellow;font-weight: bold;" class="right">
+                        <span class="price">410$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                        <img class="imag-sec" src="51rs6uJijgL.jpg" alt="">
+                       
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Canon PowerShot V10 15.2MP
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: greenyellow;font-weight: bold;" class="right">
+                        <span class="price">590$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="new1">
+                    <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                    <div style="position: relative;">
+                      <img class="imag-sec" src="canon-eos-r50-schwarz-18-45mm-55-210mm-is-stm-167585107526940304.jpg" alt="">
+                    </div>
+                     
+                    <div style=" color: white; margin: 15px;" class="title">
+                      Camera EOS R50 
+                    </div>
+                    <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                      <div style=" color: greenyellow;font-weight: bold;" class="right">
+                      <span class="price">898$</span>
+                      </div>
+                      <div class="left">
+                        <div class="extend-btn">
+                          <a href="">favorite</a>
+                          <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                         </div>
+                          </div>
+                          <div class="extend-btn">
+                            <a href="">shop</a>
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    <div class="row">
+                      <div class="new1">
+                      <div style="text-align: center; box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.4);" class="shopping-card">
+                      <div style="position: relative;">
+                        <img class="imag-sec" src="71kvNa3wCOL._AC_UF1000,1000_QL80_.jpg" alt="">
+                      </div>
+                       
+                      <div style=" color: white; margin: 15px;" class="title">
+                        Canon EOS R8 Camera
+                      </div>
+                      <div style="display: flex;justify-content: space-between; align-items: center;padding: 5px 15px;" class="buttons">
+                        <div style=" color: greenyellow;font-weight: bold;" class="right">
+                        <span class="price">657$</span>
+                        </div>
+                        <div class="left">
+                          <div class="extend-btn">
+                            <a href="">favorite</a>
+                            <div class="icon-color"><a  href=""><i class="fa-regular fa-heart"></i></a></div>
+                           </div>
+                            </div>
+                            <div class="extend-btn">
+                              <a href="">shop</a>
+                              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </section>
+
+
+
+               <section>
+                 <div class="buttons-more-div">
+                  <span class="buttons-more">View more</span>
+                 </div>
+
+               </section>
+                       
+              
+                  
+                  <div class="article">
+                  <div>
+                    <h2>Capture moments like a pro with Professional Camera</h2>
+                  </div>
+                  <div>
+                    <p>Be it a wedding, a birthday bash or a farewell lunch, no celebration is complete without photos being clicked. While many prefer to use our Smartphone Cameras, many wish to level up their photography game with a Professional Camera. Whether you see photography as a hobby or a vocation, a professional Camera will help you click photos that awe.</p>
+                  </div>
+                  <div>
+                    <h2>What Professional Cameras do professional photographers use?</h2>
+                  </div>
+                  <div>
+                    <p>Most professional photographers prefer using the high-end models of Canon, Nikon and Sony cameras. However, just because someone is using a particular camera doesn't mean you have to use it too.
+
+                      While DSLRs were the mainstay of a professional photographer’s toolkit, these are fast being replaced by Mirrorless Cameras. With each passing year, Mirrorless Cameras are becoming as powerful and efficient as DSLRs, while continuing to be lightweight and compact.</p>
+                  </div>
+                  <div>
+                    <h2>What to look for while shopping for Professional Cameras?</h2>
+                  </div>
+                  <div>
+                    <p>Buying a professional Camera can quickly get confusing if you don't know what exactly to look for. The talk of megapixels, DSLR vs Mirrorless Cameras, lens specifications, and other technical specifications might throw off a less-experienced photographer.
+
+                      The first thing to consider is the type of Camera you should go for. For occasional or basic photography, point and shoot Cameras are a good starting point as are entry-level DSLRs. For those of you willing to take the next step, pro Cameras are waiting for you. You can choose between a professional DSLR Camera or a Mirrorless Camera depending on your budget and needs. If you plan to shoot more videos than photos, you could consider buying a 4K professional Video Camera.
+                      
+                      The defining factor of a professional Camera is its interchangeable lenses. Lenses of one brand don't usually fit a Camera of another brand. Thus, you must consider the different types of lenses and other gadgets that will go with your Camera before buying it.
+                      
+                      Megapixel count (MP) is not that big a factor when considering high-end cameras as most of them have large image sensors that give high-resolution photos. Settings of aperture, ISO, focus and exposure are to be considered as well. If you plan to shoot a lot of action shots, Cameras with accurate autofocus and fast burst mode are perfect for you. A full-frame Camera would work best for ones who want to crop or enlarge images without losing quality.</p>
+                  </div>
+                  <div>
+                    <h2>The best professional Cameras, only at Croma</h2>
+                  </div>
+                  <div>
+                    <p>Are professional Camera prices stopping you from buying one? Croma.com offers best deals and various easy EMI options on cameras of Sony, Canon, Nikon, Olympus and Fujifilm. You can also explore our Camera accessories range to enhance your photography experience.</p>
+                  </div>
+                  </div>
+
+
+
+                  <footer>
+                    <div class="row">
+                      <div class="right">
+                        <div class="title">
+                          About us
+                        </div>
+                        <div class="des">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate, eaque qui, asperiores necessitatibus in dolor numquam minima iste vel tenetur recusandae odio repudiandae neque nesciunt dicta assumenda, expedita aperiam.
+                        </div>
+                    </div>
+                    <div class="left">
+                      <div class="socialmedia">
+                      <label for="email">CONNECT  WITH US :</label><br>
+                      <input id="email" type="text" placeholder="Enter email Id">
+                      <input class="input2" id="email" type="submit" value="submit">
+                      </div>
+                    <div class="title">
+                      © Copyright 2023 Croma. All rights reserved
+                    </div>
+                    <div class="social">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-youtube"></i>
+                      <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    </div>
+
+                   </footer>
+                  </main>
+</body>
+</html>

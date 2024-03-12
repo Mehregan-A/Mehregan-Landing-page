@@ -1,0 +1,45 @@
+footer{
+    background-color: rgb(37, 35, 35);
+    font-size: 30px;
+    position: relative;
+}
+footer .right{
+    padding: 40px;
+}
+footer .right .title{
+    padding: 10px 0px;
+    color: white;
+}
+footer .right .des{
+    color: rgb(173, 172, 172);
+}
+footer .left label{
+    color: aliceblue;
+    position: absolute;
+    left: 900px;
+    bottom: 110px;
+    font-size: 70%;
+} 
+footer .left input{
+    position: absolute;
+    left: 890px;
+    bottom: 60px;
+    border-radius: 20px;
+}
+footer .left .title{
+font-size: 72%;
+}
+footer .social{
+ display: flex;
+ justify-content:space-around;
+ color:rgb(17, 160, 216) ;
+ cursor: pointer;
+}
+footer .left .input2{
+    position: absolute;
+    left: 1163px;
+    bottom: 60px;
+    border-radius: 20px;
+    background-color:rgb(37, 35, 35) ;
+    color: rgb(17, 160, 216) ;
+}

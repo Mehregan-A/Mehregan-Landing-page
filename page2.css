@@ -1,0 +1,76 @@
+  /*product section*/
+  .product-sec-new .new1{
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .product-sec-new {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .hot-offer{
+     background-color: red;
+     color: white;
+     padding: 3px 5px;
+     border-radius: 5px;
+     position: absolute;
+     top: 10px;
+     right: 10px;
+   }
+   .imag-sec{
+    width: 60%;
+
+   }
+   .extend-btn{
+    display: flex;
+    background-color:rgb(17, 160, 216);
+    border-radius: 8px;
+    padding: 4px;
+
+   }
+  .icon-color:hover{
+   color: red;
+  }
+  .extend-btn a{
+    text-decoration: none;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .camera-purch h2{
+    position: relative;
+    left: 20px;
+    font-size: 250%;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60000, 0 0 30px #e60000, 0 0 35px #e60000, 0 0 40px #e60000, 0 0 45px #e60000;
+ }
+   section .buttons-more{
+    color: #fff;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    border: 1.2px;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+   }
+   section .buttons-more-div{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   
+ 
+
+ @media screen and (max-width:900px){
+  .product-sec-new {
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+ @media screen and (max-width:600px){ 
+  .product-sec-new {
+    grid-template-columns:1fr;
+    }
+ }
